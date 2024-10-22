@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+    .grid {
+        display: grid;   
+        gap: 5px;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: 60x 60px 60px;
+        justify-content: center;
+        margin-top: 100px;
+    
+    }
+
+    .div
+    {
+        padding: 5px;
+        width: 185px;
+        height: 50px;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: large;
+        font-weight: bold;
+
+    }
+    .en {
+       
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .ge {
+        
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .ie {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .sp
+    {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .fr{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .jp
+    {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    .kr
+    {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .ch{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .hi
+    {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+    .bb {
+
+        width: 25px;
+        height: 20px;
+        padding: 2px;
+        margin-top: 2px;
+        border-radius: 20px;
+        background-color: rgb(31, 120, 202);
+        font-weight: bold;
+        font-size: 8px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .gb {
+        width: 25px;
+        height: 20px;
+        padding: 2px;
+        margin-top: 2px;
+        border-radius: 20px;
+        background-color: rgb(0, 255, 98);
+        font-weight: bold;
+        font-size: 8px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        position: sticky;
+
+    }
+    ul {
+        list-style: none;
+        font-weight: lighter;
+        font-size: 8px;
+        display: flex;
+        gap: 5px;
+    }
+
+@media screen and (max-width: 550px) 
+{
+    
+    .grid
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 50px;
+    }
+
+}
+</style>
+
+
+
+<body>
+
+
+
+<header>
+    <nav>
+        <img width="100" height="50px" src="https://comparecamp.com/media/uploads/2019/02/ultraedit-logo.png" alt="ue">
+        <span><ul>
+            <li>Product</li>
+            <span><img width="15px" height="10px" src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-standard.svg" alt=""></span>
+            <li>Resources</li>
+            <span><img width="15px" height="10px" src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-standard.svg" alt=""></span>
+            <li>Pricing</li>
+            <span><img width="15px" height="10px" src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-standard.svg" alt=""></span>
+            <li>About US</li>
+            <span><img width="15px" height="10px" src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-standard.svg" alt=""></span>
+        </ul></span>
+    
+    </nav>
+</header>
+
+<main>
+    <div class="grid">
+
+        <div class="en div">
+            <span>English</span>
+            <span>
+                <a class="gb" href="ue_english_64.exe">Download 64-bit</a>
+                <a class="bb" href="ue_english_32.exe">Download 32-bit</a>
+            </span>
+
+        </div>
+
+        <div class="ge div">
+            <span>Germen</span>
+            <span>
+                <a class="gb" href="ue_english_64.exe">Download 64-bit</a>
+                <a class="bb" href="ue_english_32.exe">Download 32-bit</a>
+            </span>
+        </div>
+
+        <div class="ie div">
+            <span>Itailian</span>
+            <span>
+                <a class="gb" href="ue_english_64.exe">Download 64-bit</a>
+                <a class="bb" href="ue_english_32.exe">Download 32-bit</a>
+            </span>
+        </div>
+
+        <div class="sp div">
+            <span>Spanish</span>
+            <span>
+                <a class="gb" href="ue_english_64.exe">Download 64-bit</a>
+                <a class="bb" href="ue_english_32.exe">Download 32-bit</a>
+            </span>
+        </div>
+
+
+        <div class="fr div">
+            <span>French</span>
+            <span>
+                <a class="gb" href="ue_english_64.exe">Download 64-bit</a>
+                <a class="bb" href="ue_english_32.exe">Download 32-bit</a>
+            </span>
+        </div>
+
+
+        <div class="jp div">
+            <span>Japnese</span>
+            <span>
+                <a class="gb" href="ue_english_64.exe">Download 64-bit</a>
+                <a class="bb" href="ue_english_32.exe">Download 32-bit</a>
+            </span>
+        </div>
+
+
+        <div class="kr div">
+            <span>Korean</span>
+            <span>
+                <a class="gb" href="ue_english_64.exe">Download 64-bit</a>
+                <a class="bb" href="ue_english_32.exe">Download 32-bit</a>
+            </span>
+        </div>
+
+
+        <div class="ch div">
+            <span>Chinese</span>
+            <span>
+                <a class="gb" href="ue_english_64.exe">Download 64-bit</a>
+                <a class="bb" href="ue_english_32.exe">Download 32-bit</a>
+            </span>
+        </div>
+
+
+        <div class="hi div">
+            <span>Hindi</span>
+            <span>
+                <a class="gb" href="ue_english_64.exe">Download 64-bit</a>
+                <a class="bb" href="ue_english_32.exe">Download 32-bit</a>
+            </span>
+        </div>
+
+    </div>
+
+</main>
+
+    
+
+
+
+
+
+
+</body>
+
+</html>
